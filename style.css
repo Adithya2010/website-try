@@ -1,0 +1,203 @@
+
+@import "/searchbar/style2.css";
+
+@import "/bubble-animation/style3.css";
+
+
+header h1 {
+  text-align: left;
+  padding: 25px;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  text-shadow: 2px, 3px, 2px, red;
+  font-size:medium;
+}
+
+
+.imgs {
+
+  position: relative;
+  top: 0;
+  left: 0;
+  justify-content: space-evenly;
+  grid-row: 3 / span 3;
+
+}
+
+.imgs:hover {
+  border: 1px solid rgb(113, 6, 235);
+}
+
+
+
+
+
+
+.navbar ul {
+  list-style-type: none;
+  background-color: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  float: right;
+
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: black;
+}
+
+.navbar li {
+  float: right;
+  
+}
+
+.con1 {
+  position: relative;
+  justify-content: space-evenly;
+  grid-row: 3 / span 2;
+
+}
+
+
+aside {
+  width: 20%;
+  float: center;
+  padding: 10px;
+
+}
+
+
+section {
+  width: 20%;
+  float: center;
+  padding: 10px;
+}
+
+
+
+article {
+  width: 20%;
+  float: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+h4 {
+  background-color: rgb(17, 170, 241);
+}
+
+
+
+
+.pagination {
+  text-align: center;
+}
+
+.pagination a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+
+}
+
+.pagination a.active {
+  background-color: greenyellow;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+
+footer {
+  display: block;
+  clear: both;
+  background-color: rgb(228, 220, 220);
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+
+}
+
+
+.Gallery {
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  margin: 5px;
+  width: 200px;
+}
+
+.Gallery .descriptions {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.Gallery:hover {
+  border: 1px solid rgb(113, 6, 235);
+}
+
+.Gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.icons {
+  text-align: right;
+  background-color: rgb(18, 131, 231);
+  background-size: 1000px;
+  justify-content: space-around;
+}
+
+.icons a {
+  text-decoration: none;
+  margin-right: 100px;
+}
+
+.fa-sharp .fa-light .fa-code:hover {
+  color: rgb(9, 31, 236);
+  size: 500px;
+}
+
+.fa-brands .fa-instagram:hover {
+  color: red;
+  size: 500px;
+}
+
+
+
+.fa-brands .fa-github:hover {
+  color: grey;
+  size: 500px;
+}
+
