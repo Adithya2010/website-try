@@ -1,7 +1,7 @@
 
-@import "/searchbar/style2.css";
+@import "./searchbar/style2.css";
 
-@import "/bubble-animation/style3.css";
+@import "./bubble-animation/style3.css";
 
 
 header h1 {
